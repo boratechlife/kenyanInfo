@@ -1,5 +1,6 @@
 ---
 let title = 'My Astro Site';
+import Counties from '../data/counties'
 ---
 <html lang="en">
 <head>
@@ -28,8 +29,12 @@ let title = 'My Astro Site';
         </div>
         </div>
         <div class="container max-w-5xl mx-auto px-4">
- 
-              
+   <h4 class="text-2xl mb-3 text-white mb-4">The 47 Counties in Kenya</h4>
+              {Counties.map(item=> {
+                return (<div class="bg-white rounded mb-4 px-4 py-2 text-xl font-medium text-green-500">
+                          <span>{item.code}</span> <span class="ml-4">{item.name}</span>
+                    </div>)
+              })}
         </div>
     </div>
 </body>
