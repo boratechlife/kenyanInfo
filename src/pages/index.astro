@@ -13,21 +13,23 @@ let title = 'My Astro Site';
     >
 </head>
 <body>
-    <div class="bg-gradient-to-br from-indigo-900 to-green-900 min-h-screen overflow-auto">
+
+    <div class="bg-gradient-to-br from-green-900 to-red-900 min-h-screen overflow-auto">
+        <div class="nav flex justify-between container mx-auto px-4 py-3">
+        <div class="">
+            <img src="data:image/png;base64,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" class="h-10 w-20 object-contain" alt="">
+        </div>
+
+        <div class="flex items-center text-red-500 gap-4">
+            <a href=""  class="hover:text-black">Counties</a>
+            <a href=""  class="hover:text-black">Sub Counties</a>
+            <a href="" class="hover:text-black">Contituencies</a>
+            <a href=""  class="hover:text-black">Ward</a>
+        </div>
+        </div>
         <div class="container max-w-5xl mx-auto px-4">
-            <div class="w-4/5 mx-auto">
-                <h1 class="mt-32 text-white text-6xl font-bold"><img width="60" height="80" src="/assets/logo.svg" alt="Astro logo"> Welcome to <a href="https://astro.build/">Astro</a></h1>
-            </div>
-            <div class="w-4/5 my-10 mx-auto">
-                <h3 class="text-gray-300">Build faster websites with less <strong class="text-white">client-side Javascript</strong>
-                <br />
-                This is how easy it is to get started</h3>
-            </div>
-            <div class="w-2/5 mx-auto bg-black text-white p-10 leading-10 rounded-2xl shadow-lg">
-                mkdir astro<br />
-                cd astro<br />
-                npm init astro
-            </div>
+ 
+              
         </div>
     </div>
 </body>
