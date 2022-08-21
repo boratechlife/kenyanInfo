@@ -1,0 +1,401 @@
+Baringo
+
+Baringo North	
+Baringo Central	
+Baringo South	
+Eldama Ravine	
+Mogotio
+Tiaty	
+
+Bomet
+
+Bomet Central	
+Bomet East	
+Chepalungu	
+Konoin	
+Sotik	
+
+BUNGOMA
+
+Bumula	
+Kabuchai	
+Kanduyi	
+Kimilili	
+Mt. Elgon	
+Sirisia	
+Tongaren	
+Webuye East	
+Webuye West	
+
+BUSIA
+Budalangi	
+Butula	
+Funyula
+Matayos	
+Nambale	
+Teso North	
+Teso South	
+
+DIASPORA
+Diaspora
+
+ELGEIYO/MARAKWET
+Keiyo North	
+Keiyo South	
+Marakwet East	
+Marakwet West	
+
+EMBU
+Manyatta	
+Mbeere North	
+Mbeere South	
+Runyenjes	
+
+GARISSA
+
+Balambala
+Dadaab	
+Fafi	
+Garissa Township	
+Ijara	
+Lagdera	
+
+HOMA BAY
+
+Homa Bay Town	
+Kabondo Kasipul
+Karachuonyo	
+Kasipul	
+Ndhiwa	
+Rangwe	
+Suba North	
+Suba South
+
+ISIOLO
+
+Isiolo North	
+Isiolo South	
+
+KAJIADO
+
+Kajiado Central	
+Kajiado East	
+Kajiado North	
+Kajiado South	
+Kajiado West	
+
+KAKAMEGA
+
+Butere	
+Ikolomani	
+Khwisero	
+Likuyani	
+Lugari	
+Lurambi	
+Malava	
+Matungu	
+Mumias East	
+Mumias West	
+Navakholo	
+Shinyalu	
+
+KERICHO
+
+Ainamoi	
+Belgut	
+Bureti	
+Kipkelion East	
+Kipkelion West	
+Sigowet/Soin	
+
+KIAMBU
+
+Gatundu North	
+Gatundu South	
+Githunguri	
+Juja	
+Kabete	
+Kiambaa	
+Kiambu	
+Kikuyu	
+Lari	
+Limuru	
+Ruiru	
+Thika Town	
+
+KILIFI
+
+Ganze	
+Kaloleni	
+Kilifi North	
+Kilifi South	
+Magarini	
+Malindi
+Rabai
+
+KIRINYAGA
+
+Gichugu	
+
+Kirinyaga Central	
+Mwea	
+Ndia	
+
+KISII
+
+Bobasi	
+Bomachoge Borabu	
+Bomachoge Chache	
+Bonchari	
+Kitutu Chache North	
+Kitutu Chache South	
+Nyaribari Chache	
+Nyaribari Masaba	
+South Mugirango	
+
+KISUMU
+Kisumu Central	
+Kisumu East	
+Kisumu West	
+Muhoroni	
+Nyakach	
+Nyando	
+Seme	
+
+KITUI
+Kitui Central	
+Kitui East	
+Kitui Rural	
+Kitui South	
+Kitui West	
+Mwingi Central	
+Mwingi North	
+Mwingi West	
+
+KWALE
+Kinango	
+Lungalunga	
+Matuga	
+Msambweni	
+
+LAIKIPIA
+Laikipia East	
+Laikipia North	
+Laikipia West	
+
+LAMU
+Lamu East	
+Lamu West	
+
+MACHAKOS
+Kangundo	
+Kathiani	
+Machakos Town	
+Masinga	
+Matungulu	
+Mavoko	
+Mwala	
+Yatta	
+
+MAKUENI
+Kaiti	
+Kibwezi East	
+Kibwezi West	
+Kilome	
+Makueni	
+Mbooni	
+
+MANDERA
+Banissa	
+Lafey	
+Mandera East	
+Mandera North	
+Mandera South	
+Mandera West	
+
+MARSABIT
+Laisamis	
+Moyale	
+North Horr	
+Saku	
+
+MERU
+Buuri	
+Central Imenti	
+Igembe Central	
+Igembe North	
+Igembe South	
+North Imenti	
+South Imenti	
+Tigania East	
+Tigania West	
+
+MIGORI
+Awendo	
+Kuria East	
+Kuria West
+Nyatike	
+Rongo	
+Suna East	
+Suna West	
+Uriri	
+
+MOMBASA
+Changamwe	
+Jomvu	
+Kisauni	
+Likoni	
+Mvita	
+Nyali	
+
+MURANG'A
+Gatanga	
+Kandara	
+Kangema	
+Kigumo	
+Kiharu	
+Maragwa	
+Mathioya	
+
+NAIROBI CITY
+
+Dagoretti North	
+Dagoretti South	
+Embakasi Central	
+Embakasi East	
+Embakasi North	
+Embakasi South	
+Embakasi West	
+Kamukunji	
+Kasarani	
+Kibra	
+Langata	
+Makadara	
+Mathare	
+Roysambu	
+Ruaraka	
+Starehe	
+Westlands	
+
+NAKURU
+Bahati	
+Gilgil	
+Kuresoi North	
+Kuresoi South	
+Molo	
+Naivasha	
+Nakuru Town East	
+Nakuru Town West
+Njoro	
+Rongai	
+Subukia	
+
+NANDI
+Aldai	
+Chesumei	
+Emgwen	
+Mosop	
+Nandi Hills	
+Tinderet	
+
+NAROK
+Emurua Dikirr	
+Kilgoris	
+Narok East	
+Narok North	
+Narok South	
+Narok West	
+
+NYAMIRA
+Borabu	
+Kitutu Masaba	
+North Mugirango	
+West Mugirango	
+
+NYANDARUA
+Kinangop	
+Kipipiri	
+Ndaragwa	
+Ol Jorok	
+Ol Kalou	
+
+NYERI
+Kieni	
+Mathira	
+Mukurweini	
+Nyeri Town	
+Othaya	
+Tetu	
+
+SAMBURU
+Samburu East	
+Samburu North	
+Samburu West	
+
+SIAYA
+Alego Usonga	
+Bondo	
+Gem	
+Rarieda	
+Ugenya	
+Ugunja	
+
+TAITA TAVETA
+Mwatate	
+Taveta	
+Voi	
+Wundanyi	
+
+TANA RIVER
+Bura	
+Galole	
+Garsen	
+
+THARAKA_NITHI
+Chuka/Igambang'ombe	
+Maara	
+Tharaka	
+
+TRANS NZOIA
+Cherangany	
+Endebess	
+Kiminini	
+Kwanza	
+Saboti	
+
+TURKANA
+Loima	
+Turkana Central	
+Turkana East	
+Turkana North	
+Turkana South	
+Turkana West	
+
+UASIN GISHU
+Ainabkoi	
+Kapseret	
+Kesses	
+Moiben	
+Soy	
+Turbo	
+
+VIHIGA
+Emuhaya	
+Hamisi	
+Luanda	
+Sabatia	
+Vihiga	
+
+WAJIR
+Eldas	
+Tarbaj	
+Wajir East	
+Wajir North	
+Wajir South	
+Wajir West	
+
+WEST POKOT
+Kacheliba
+Kapenguria	
+Pokot South	
+Sigor	
