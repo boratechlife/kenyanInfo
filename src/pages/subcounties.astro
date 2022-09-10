@@ -1,6 +1,8 @@
 ---
-let title = 'List of 47 counties in Kenya';
-import Counties from '../data/counties'
+
+import sub_counties from '../data/subcounties'
+import counties from '../data/counties';
+let title = `List of ${sub_counties.length} subcounties in Kenya`;
 ---
 <html lang="en">
 <head>
@@ -21,9 +23,9 @@ import Counties from '../data/counties'
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<meta name="title" content="Counties in Kenya">
-<meta name="description" content="The 47 counties in Kenya with their codes">
-<meta name="keywords" content="counties, Kenya, ">
+<meta name="title" content={title}>
+<meta name="description" content={title}>
+<meta name="keywords" content="subcounties, Kenya, ">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
@@ -64,19 +66,23 @@ import Counties from '../data/counties'
         </div>
     </nav>
         <div class="container max-w-5xl mx-auto px-4 py-4">
-   <h1 class="text-xl lg:text-2xl mb-3 text-gray-600 mb-4">The 47 Counties in Kenya</h1>
+   <h1 class="text-lg lg:text-2xl mb-3 text-gray-600 mb-4">{title}</h1>
    <table class="table w-full border border-collapse">
      <thead>
         <tr class="border-b">
             <td class="px-2 py-1 uppercase font-bold">Code</td>
             <td class="px-2 py-1 uppercase font-bold">Name</td>
+            <td class="px-2 py-1 uppercase font-bold">County</td>
         </tr>
      </thead>
 <tbody class="">
-    {Counties.map(item=> {
-        return (<tr class="bg-white rounded mb-4 px-4 py-2 text-base lg:text-xl  font-normal text-green-800">
-            <td class="px-2 py-1 ">{item.code}</td>
+    {sub_counties.map((item,index)=> {
+        return (<tr class="bg-white rounded mb-4 px-4 py-2 text-sm lg:text-xl  font-normal text-green-800">
+            <td class="px-2 py-1 ">{index + 1 }</td>
             <td class="px-2 py-1 ">{item.name}</td>
+            <td class="px-2 py-1 ">{counties.filter(county =>item.county_id == county.id)[0]?.name}</td>
+
+            
             </tr>)
       })}
 </tbody>

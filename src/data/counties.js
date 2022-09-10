@@ -223,7 +223,7 @@ export default [
     {
         name:"Kisii",
         code:"045",
-        id:44,
+        id:45,
     },
     {
         name:"Nyamira",
