@@ -1,40 +1,15 @@
-# Welcome to [Astro](https://astro.build)
+# Welcome to [KENYAYETU.XYZ INFORMATION SITE](https://www.kenyayetu.xyz/)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🚀 ABOUT KENYAYETU.XYZ
 
-```
-/
-├── public/
-│   ├── robots.txt
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Tour.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Inside KENYAYETU.XYZ, you'll see the following Information about Kenya as Country, the Counties, constituencies, wards, etc:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+1.[The 47 Counties in Kenya](https://www.kenyayetu.xyz/)
+2.[Contituencies](https://www.kenyayetu.xyz/constituencies/)
+2.[Sub Counties](https://www.kenyayetu.xyz/subcounties/)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 👀 MADE WITH LOVE BY?
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command         | Action                                      |
-|:----------------|:--------------------------------------------|
-| `npm install`   | Installs dependencies                       |
-| `npm run start` | Starts local dev server at `localhost:3000` |
-| `npm run build` | Build your production site to `./dist/`     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
+ [Kenyayetu.xyz](https://www.kenyayetu.xyz/) is made with love by  [kiprono](https://kiprono.co.ke). For any support or info email: boratechlife@gmail.com
