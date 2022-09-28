@@ -10,7 +10,7 @@ Inside KENYAYETU.XYZ, you'll see the following Information about Kenya as Countr
 
 2.[List of 291 constituencies in Kenya](https://www.kenyayetu.xyz/constituencies/).
 
-2.[List of 302 subcounties in Kenya](https://www.kenyayetu.xyz/subcounties/).
+3.[List of 302 subcounties in Kenya](https://www.kenyayetu.xyz/subcounties/).
 
 ### 👀 MADE WITH LOVE BY?
 

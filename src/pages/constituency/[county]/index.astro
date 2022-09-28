@@ -1,7 +1,43 @@
 ---
-let title = 'List of 47 counties in Kenya';
-import Counties from '../data/counties'
+
+const description = 'ServiceListing provides business listing website for HVAC Professionals and offers unique apps to  increase their online presense by providing connectivity to ecommerce stores and showing reviews from multiple websites'
+import counties  from "../../../data/counties";
+
+export async function getStaticPaths() {
+
+    // console.log(data)
+  // let   generatedParams=[];
+  //  for(let i=0;i<data.length;i++) {
+  //   generatedParams.push({
+  //     params:{...data[i]}
+  //   })
+  //  }
+  //  console.log(generatedParams);
+  // return generatedParams;
+
+  //const data = await fetch('...').then(response => response.json());
+
+ const formattedRes = [];
+ for(let i=0; i< counties.length; i++) {
+  const allconstituencies= counties[i].constituencies
+  let title=`List of Constituencies in ${counties[i].name}`;
+  console.log(counties[i].name);
+  formattedRes.push({
+    params: { county: counties[i].name },
+    props: { county_constituencies:allconstituencies, title },
+  })
+
+ }
+  return formattedRes;
+
+}
+const { county } = Astro.request.params;
+console.log(county)
+const  { county_constituencies, title  } = Astro.props;
+
+console.log("const",county)
 ---
+
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
@@ -21,9 +57,9 @@ import Counties from '../data/counties'
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<meta name="title" content="Counties in Kenya">
-<meta name="description" content="The 47 counties in Kenya with their codes">
-<meta name="keywords" content="counties, Kenya, ">
+<meta name="title" content={title}>
+<meta name="description" content={title}>
+<meta name="keywords" content="constituencies, Kenya, ">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
@@ -31,7 +67,7 @@ import Counties from '../data/counties'
 
     <link
         rel="stylesheet"
-        href={Astro.resolve("../assets/style/global.css")}
+        href={Astro.resolve("../../../assets/style/global.css")}
     >
 </head>
 <body>
@@ -64,27 +100,29 @@ import Counties from '../data/counties'
         </div>
     </nav>
         <div class="container max-w-5xl mx-auto px-4 py-4">
-   <h1 class="text-xl lg:text-2xl mb-3 text-gray-600 mb-4">The 47 Counties in Kenya</h1>
+   <h1 class="text-lg lg:text-2xl mb-3 text-gray-600 mb-4">{title}</h1>
    <table class="table w-full border border-collapse">
      <thead>
         <tr class="border-b">
-            <td class="px-2 py-1 uppercase font-bold">Code</td>
+            <td class="px-2 py-1 uppercase font-bold">#</td>
             <td class="px-2 py-1 uppercase font-bold">Name</td>
-            <td class="px-2 py-1 uppercase font-bold">Action</td>
+            
+            
         </tr>
      </thead>
 <tbody class="">
-    {Counties.map(item=> {
-        return (<tr class="bg-white rounded mb-4 px-4 py-2 text-base lg:text-xl  font-normal text-green-800">
-            <td class="px-2 py-1 ">{item.code}</td>
-            <td class="px-2 py-1 ">{item.name}</td>
-            <td class="px-2 py-1 ">
-                <div class="flex flex-col">
-                      <a class="text-sm underline text-blue-500 hover:nounderline" href={`constituency/${item.name}`}>View Constituencies</a>
-                    </div>
-                </td>
+  
+ 
+       {  county_constituencies.map((item: unknown, index: number) =>{
+    
+            return (<tr class="bg-white rounded mb-4 px-4 py-2 text-sm lg:text-xl  font-normal text-green-800">
+            <td class="px-2 py-1 ">{index + 1 }</td>
+            <td class="px-2 py-1 ">{item}</td>
+           
+
+            
             </tr>)
-      })}
+        })}
 </tbody>
    </table>
         </div>

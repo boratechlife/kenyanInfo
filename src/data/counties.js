@@ -57,7 +57,7 @@ export default [
     ]
     }, 
     {
-        name:"Taita/Taveta",
+        name:"Taita Taveta",
         code:"006",
         id:6,
         constituencies:[
@@ -334,7 +334,7 @@ export default [
         ]
     },
     {
-        name:"Elgeiyo/Marakwet",
+        name:"Elgeiyo Marakwet",
         code:"028",
         id:28,
         constituencies:[
