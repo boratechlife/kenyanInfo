@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://www.kenyayetu.xyz/sitemap.xml
+Sitemap: https://kenyayetu.netlify.app/sitemap.xml
